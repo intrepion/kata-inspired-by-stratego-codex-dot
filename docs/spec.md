@@ -1,0 +1,11 @@
+# Veil of the Salt Crown
+
+Decisions delegated by the user; no interactive interview occurred. Design tree: compact solo game → 6×8 battlefield → twelve units per faction → two home rows → orthogonal rank combat → redacted observation boundary → resumable local state. Alternatives considered: full 40-piece game, 8×8 medium army, compact 12-piece game. Choose compact for readable mobile play and complete short matches.
+
+Amber Compact (player, first) versus Dusk Covenant (AI). Each army: Crown (objective), two Wards (bombs), Regent 6, Sentinel 5, two Captains 4, two Sappers 3, two Runners 2, Shade 1. Higher rank wins; ties remove both. Sapper disarms Ward. Attacking Shade beats Regent, but defending Shade loses to Regent. Runners move/attack any clear orthogonal distance and reveal themselves on a move longer than one square. Crown/Wards immobile. Two salt basins at B4/B5 and E4/E5. Capture Crown or leave opponent without legal moves to win. Both blocked is draw. Threefold exact board+turn repetition or 80 plies without combat draws; no separate oscillation prohibition. Survivors stay revealed, rather than relying on human memory. Setup allows swapping all twelve pieces in bottom two rows, shuffle, and validity check before battle.
+
+AI receives only own ranks, enemy public rank (combat/long Runner move), positions, observed movement and public history; IDs encode side/slot only. UI uses same redaction; no hidden rank in labels, titles, data attributes or selection details. Local code/save inspection can reveal secrets, so this is fair casual play, not cheat-proof multiplayer.
+
+State machine: setup → player → AI → player/end. Illegal/stale actions leave state unchanged. New match and reload invalidate timer via generation token; only one delayed AI move is scheduled. Atomic saves include phase, observations, counters/history and outcome. Malformed saves rejected. Save failure reported without blocking play.
+
+Tests at delegated public seams: engine actions/legal moves/combat, observation and AI choice, save decoding, browser visible controls. Keyboard: arrows navigate board, Enter/Space activate, Escape cancel. Tutorial explains rules and special roles. Rematch/new arrangement, autosave, storage status and recovery are required.
