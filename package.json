@@ -1,1 +1,26 @@
-{"name":"veil-of-the-salt-crown","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"tsc --noEmit && vite build","typecheck":"tsc --noEmit","test":"node --import tsx --test tests/*.test.ts","check":"npm run typecheck && npm test && npm run build","start":"node scripts/serve.mjs","start:detached":"node scripts/launch.mjs"},"devDependencies":{"@playwright/test":"latest","@types/node":"latest","tsx":"latest","typescript":"latest","vite":"latest"}}
+{
+  "name": "veil-of-the-salt-crown",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "npm test",
+    "start": "node scripts/serve.mjs",
+    "start:detached": "node scripts/launch.mjs",
+    "pretest": "npm run build",
+    "format": "prettier --write src tests scripts docs *.md *.json index.html .github/workflows/ci.yml"
+  },
+  "devDependencies": {
+    "@types/jsdom": "30.0.0",
+    "@types/node": "26.6.5",
+    "jsdom": "30.1.2",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

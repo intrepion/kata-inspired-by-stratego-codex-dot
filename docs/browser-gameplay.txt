@@ -1,0 +1,49 @@
+Full match one (loss, 40 actions):
+115 text Amber moved A1 → A3.
+115 text Amber moved A4 → A5.
+115 text Amber moved A5 → A6.
+115 text Amber Regent attacked Ward at A7. Defender held.
+115 text Amber moved A3 → A6.
+115 text Amber moved B2 → B3.
+115 text Amber moved E2 → E3.
+115 text Amber moved F2 → F3.
+115 text Amber moved F3 → F4.
+115 text Amber moved B1 → B2.
+115 text Amber moved F1 → F2.
+115 text Amber moved B3 → C3.
+115 text Amber Captain attacked Captain at D3. Both fell.
+115 text Amber moved E3 → F3.
+115 text Amber Shade attacked Sapper at F5. Defender held.
+115 text Amber moved F3 → F4.
+115 text Amber Sapper attacked Sapper at F5. Both fell.
+115 text Amber moved F2 → E2.
+
+Full match two (victory, 55 actions):
+A2 → A7: Amber Runner attacked Sapper at A7. Defender held.
+B2 → B3: Amber moved B2 → B3.
+C2 → C3: Amber moved C2 → C3.
+C3 → C4: Amber moved C3 → C4.
+C1 → C3: Amber moved C1 → C3.
+C4 → C5: Amber moved C4 → C5.
+C5 → C6: Amber moved C5 → C6.
+C6 → C7: Amber Regent attacked Ward at C7. Defender held.
+C3 → C6: Amber moved C3 → C6.
+D2 → D3: Amber moved D2 → D3.
+D3 → D4: Amber moved D3 → D4.
+E2 → E3: Amber moved E2 → E3.
+F2 → F3: Amber moved F2 → F3.
+F3 → F4: Amber moved F3 → F4.
+F4 → F5: Amber moved F4 → F5.
+E1 → E2: Amber moved E1 → E2.
+F1 → F2: Amber moved F1 → F2.
+B3 → A3: Amber moved B3 → A3.
+A3 → A4: Amber Captain attacked Sapper at A4. Attacker prevailed.
+A4 → A5: Amber moved A4 → A5.
+A5 → A6: Amber moved A5 → A6.
+A6 → A7: Amber moved A6 → A7.
+A7 → B7: Amber Captain attacked Sapper at B7. Attacker prevailed.
+B7 → B6: Amber Captain attacked Runner at B6. Attacker prevailed.
+E2 → E3: Amber Shade attacked Regent at E3. Attacker prevailed.
+B6 → B7: Amber moved B6 → B7.
+B7 → B8: Amber moved B7 → B8.
+B8 → C8: Amber captured the opposing Crown.
