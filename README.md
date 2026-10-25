@@ -36,3 +36,7 @@ The AI receives a redacted observation containing its own identities, enemy posi
 Local-only play is **not cheat-proof**: deliberate inspection of code, memory or the save can reveal identities. The AI is a tactical heuristic, not a tournament-level search engine. Use one active game tab; concurrent tabs have separate timers and can overwrite the same autosave.
 
 [Validation and honest limitations](docs/validation.md) · [Independent standards/spec reviews](docs/review.md) · [Design specification](docs/spec.md) · [Glossary](GLOSSARY.md).
+
+## Play online
+
+[Play the hosted game](https://intrepion.github.io/kata-inspired-by-stratego-codex-dot/)
