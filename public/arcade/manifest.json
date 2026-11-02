@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "gameId": "kata-inspired-by-stratego-codex-dot",
+  "playUrl": "https://intrepion.github.io/kata-inspired-by-stratego-codex-dot/",
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/view-01.jpg",
+      "sha256": "b3fca5a15874d24527207d79772a278aa9b4e41ef5bb928c5e70e31512a303ce",
+      "alt": "Completed game",
+      "provenance": {
+        "kind": "existing_repository_capture",
+        "sourcePath": "docs/screenshots/drill-victory.jpg",
+        "deployedBuild": null,
+        "captureDate": null
+      }
+    },
+    {
+      "path": "arcade/screenshots/view-02.jpg",
+      "sha256": "c049384e4be480e7d70ac65be8e21a766c88788c0a262c29053c739007f783e1",
+      "alt": "Completed game",
+      "provenance": {
+        "kind": "existing_repository_capture",
+        "sourcePath": "docs/screenshots/full-battle-victory.jpg",
+        "deployedBuild": null,
+        "captureDate": null
+      }
+    }
+  ]
+}
