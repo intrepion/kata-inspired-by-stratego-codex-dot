@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "workflowCommit": "58713c9864a8ced27478eadd4332106e4069da51",
+  "sourceCommit": "746ce82866018da33a86012b2048d2e572e6a9a2",
+  "runId": "41409139698",
+  "url": "http://127.0.0.1:4232/",
+  "inputs": {
+    "index.html": "4c296d411e6d04ce6d36c3306a288ffa51916736912460d350f21a2d37d79281",
+    "assets/index-D5dcNTig.css": "da9c02a5cd72f3ed22708567ef4583f89c0f3e6d9aa67e5ccc2556ffdd2c8605",
+    "assets/index-xOTKr-R3.js": "afdc7adfdd731968e1cb4cd741c3843b819650ebcacb7eadf5cb3339420397bc"
+  },
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "screenshots": [
+    "salt-crown-01.png",
+    "salt-crown-02.png"
+  ]
+}
